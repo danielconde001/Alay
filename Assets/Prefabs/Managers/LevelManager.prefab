@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8202284109711582969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8202284109711582971}
+  - component: {fileID: 8202284109711582968}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8202284109711582971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8202284109711582969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8202284109711582968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8202284109711582969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7a4d29f25adf6c4e940201ba1f9e20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelsToSpawn: 15
+  xOffset: 10
+  yOffset: 6
+  levels:
+  - {fileID: 4772088114487147430, guid: 7b2257d83e502c74990d80f2546c0b49, type: 3}
+  - {fileID: 4772088114487147430, guid: 633ffa3dae40d6c4b8fdaf166dbe9c60, type: 3}
+  - {fileID: 4772088114487147430, guid: 51dc5077f65bb4e4884ab4a42557d1b1, type: 3}
+  - {fileID: 4772088114487147430, guid: 3d1417b186f2cf94bbaa8b4f05f13f50, type: 3}
+  - {fileID: 4772088114487147430, guid: 878f031c7777edc4a9927e666a97ee5b, type: 3}
+  - {fileID: 4772088114487147430, guid: 3d1417b186f2cf94bbaa8b4f05f13f50, type: 3}
+  - {fileID: 4772088114487147430, guid: 878f031c7777edc4a9927e666a97ee5b, type: 3}
+  - {fileID: 4772088114487147430, guid: 51dc5077f65bb4e4884ab4a42557d1b1, type: 3}
+  - {fileID: 4772088114487147430, guid: 633ffa3dae40d6c4b8fdaf166dbe9c60, type: 3}
+  - {fileID: 4772088114487147430, guid: 7b2257d83e502c74990d80f2546c0b49, type: 3}
+  - {fileID: 4772088114487147430, guid: 633ffa3dae40d6c4b8fdaf166dbe9c60, type: 3}
+  - {fileID: 4772088114487147430, guid: 51dc5077f65bb4e4884ab4a42557d1b1, type: 3}
+  - {fileID: 4772088114487147430, guid: 878f031c7777edc4a9927e666a97ee5b, type: 3}
+  - {fileID: 4772088114487147430, guid: 3d1417b186f2cf94bbaa8b4f05f13f50, type: 3}
+  - {fileID: 4772088114487147430, guid: 7b2257d83e502c74990d80f2546c0b49, type: 3}
+  - {fileID: 4772088114487147430, guid: 633ffa3dae40d6c4b8fdaf166dbe9c60, type: 3}
+  - {fileID: 4772088114487147430, guid: 51dc5077f65bb4e4884ab4a42557d1b1, type: 3}
+  - {fileID: 4772088114487147430, guid: 878f031c7777edc4a9927e666a97ee5b, type: 3}
+  spawnedLevels: []
+  InstantiatedLevels: []
+  safeLevel: {fileID: 4772088114487147429, guid: 8286dd7cbd9aaa1448bed99686709e12,
+    type: 3}
+  safeLevelEveryXTimes: 3

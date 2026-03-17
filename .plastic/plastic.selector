@@ -1,0 +1,4 @@
+repository "Project Alay@Weez_org@cloud"
+  path "/"
+    br "/main"
+    co "/main"

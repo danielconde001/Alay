@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SparrowNPC
+  m_Controller: {fileID: 9100000, guid: 69eaefa9a28d71248bb0f71e399d6682, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 991e028437dd36947a0309894ad3332d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 78baba2cb6931bd4695095967ef54a0a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 34d586fff1c60724c96fc2cd31f6c77b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: cb75f3eb6ff76ea458eba3bedc4d0325, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 97541ab9844f30e4191caacb642b9417, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: f11292bde2084a3448afb6cad81ce2a9, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 25adc1f6f89d58d45bb7d4398d18cb09, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6e4ececedca168d4bae0a59c7694cc37, type: 2}

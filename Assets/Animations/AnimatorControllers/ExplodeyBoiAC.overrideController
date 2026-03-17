@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ExplodeyBoiAC
+  m_Controller: {fileID: 9100000, guid: 44630cb372702e04ab0c464872772ba0, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c832b502fc779ec4c82525b84ba4cf9b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b2a3a23dc225caa4aa08df8709da66b8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7342655594268ba4f80ae11237bc01c5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c948cf976207d0c46830a580ef150a43, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 58a49b587c4621e4d9920c26d946411d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c948cf976207d0c46830a580ef150a43, type: 2}
